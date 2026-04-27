@@ -20,5 +20,6 @@ public class App {
         Tetel.megszamolas();
         Tetel.magasFizetesKereses();
         Tetel.eldontes();
+        Tetel.vanSzegedi();
     }
 }

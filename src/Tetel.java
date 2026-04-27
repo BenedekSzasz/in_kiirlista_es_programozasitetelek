@@ -8,6 +8,7 @@ public class Tetel {
         emps.add(new Employee("Ernő", "Pécs", 395));
         emps.add(new Employee("Lali", "Pécs", 397));
         emps.add(new Employee("Dani", "Hatvan", 392));
+
     }
 
     public static void osszegzes() {
@@ -61,6 +62,17 @@ public class Tetel {
         }
     }
     public static void vanSzegedi(){
+        String city = "Pécs";
+        int n = emps.size();
+        int i = 0;
+        while (i < n && !emps.get(i).city.equals(city)) {
+            i++;
+        }
+        if (i<n) {
+            System.out.println("\nvan: " + city);
+        } else {
+            System.out.println("\nnincs Szegedi");
+        }
 
     }
 }

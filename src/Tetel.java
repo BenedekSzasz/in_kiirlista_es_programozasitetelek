@@ -48,6 +48,19 @@ public class Tetel {
     }
 
     public static void eldontes() {
-        
+        int ker = 5;
+        int n = nums.length;
+        int i = 0;
+        while (i < n && nums[i] != ker) {
+            i++;
+        }
+        if (i<n) {
+            System.out.println("van ilyen: " + ker);
+        } else {
+            System.out.println("nincs ilyen elem");
+        }
+    }
+    public static void vanSzegedi(){
+
     }
 }

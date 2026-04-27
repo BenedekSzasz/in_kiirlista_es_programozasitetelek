@@ -55,9 +55,9 @@ public class Tetel {
             i++;
         }
         if (i<n) {
-            System.out.println("van ilyen: " + ker);
+            System.out.println("\nvan ilyen: " + ker);
         } else {
-            System.out.println("nincs ilyen elem");
+            System.out.println("\nnincs ilyen elem");
         }
     }
     public static void vanSzegedi(){

@@ -75,4 +75,7 @@ public class Tetel {
         }
 
     }
+    public static void kivalasztasTetel() {
+        
+    }
 }
